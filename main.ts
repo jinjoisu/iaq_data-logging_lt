@@ -1,6 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-	
-})
 input.onButtonPressed(Button.AB, function () {
     kitronik_air_quality.show("Erasing memory", 6, kitronik_air_quality.ShowAlign.Left)
     kitronik_air_quality.eraseData()
@@ -23,8 +20,8 @@ kitronik_air_quality.show("Data logging, ready!", 2, kitronik_air_quality.ShowAl
 basic.showIcon(IconNames.Yes)
 basic.pause(2000)
 kitronik_air_quality.clear()
-kitronik_air_quality.setDate(25, 5, 23)
-kitronik_air_quality.setTime(1, 25, 0)
+kitronik_air_quality.setDate(26, 5, 23)
+kitronik_air_quality.setTime(1, 33, 0)
 kitronik_air_quality.addProjectInfo("JJ", "IAQ")
 kitronik_air_quality.selectSeparator(kitronik_air_quality.Separator.tab)
 kitronik_air_quality.includeDate()
