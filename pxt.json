@@ -1,5 +1,5 @@
 {
-    "name": "IAQ_data logging_LT",
+    "name": "Air_quality_long_term_data logging",
     "description": "",
     "dependencies": {
         "core": "*",
